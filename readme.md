@@ -11,10 +11,10 @@ A simple multithreaded TCP port scanner built with Rust. This tool scans for ope
 
 ```bash
 # Basic usage with default 4 threads
-cargo run <IP_ADDRESS>
+cargo run -- <IP_ADDRESS>
 
 # Specify custom number of threads
-cargo run -j <NUM_THREADS> <IP_ADDRESS>
+cargo run -- -j <NUM_THREADS> <IP_ADDRESS>
 
 # Display help message
-cargo run -h
+cargo run -- -h
